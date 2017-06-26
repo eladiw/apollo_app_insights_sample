@@ -27,8 +27,16 @@ Params
 ```
 {
   "appId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-  "appkey": "xxxxXXXXXX5q0ja",
+  "appkey": "xxxxxxxxxxxxxx",
   "path": "/metrics/exceptions/count"
 }
 ```
 
+Results:
+```
+{
+  "data": {
+    "ApplicationInsightsData": "{\"value\":{\"start\":\"2017-06-26T01:21:49.694Z\",\"end\":\"2017-06-26T13:21:49.694Z\",\"exceptions/count\":{\"sum\":null}}}"
+  }
+}
+```

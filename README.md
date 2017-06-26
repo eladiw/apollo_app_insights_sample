@@ -14,7 +14,7 @@ Run the web-server:
 npm start
 ```
 
-Browse to http://localhost:8080/graphiql and test the app!
+Browse to http://localhost:8080/graphql and test the app!
 
 Query Example:
 

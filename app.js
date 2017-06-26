@@ -5,7 +5,7 @@ import Resolvers from './data/resolvers';
 
 const GRAPHQL_PORT = process.env.PORT || 8080;
 
-var graphQLServer = express();
+const graphQLServer = express();
 
 graphQLServer.use('/graphql', apolloServer({
   graphiql: true,

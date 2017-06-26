@@ -15,6 +15,7 @@ npm start
 ```
 
 Browse to http://localhost:8080/graphiql and test the app!
+
 Query Example:
 
 ```
@@ -23,7 +24,7 @@ query AIRequest($appId: String!, $appkey: String!, $path: String!) {
 }
 ```
 
-Params
+Params:
 ```
 {
   "appId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
